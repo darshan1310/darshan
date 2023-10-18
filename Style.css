@@ -1,0 +1,51 @@
+body, h1, h2, h3, p, label {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.booking-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.booking-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.available-rooms {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.room {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.room img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

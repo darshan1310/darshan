@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+
+    <section class="booking-form">
+        <h2>Book a Room</h2>
+        <form>
+            <label for="check-in">Check-In Date:</label>
+            <input type="date" id="check-in" name="check-in" required>
+
+            <label for="check-out">Check-Out Date:</label>
+            <input type="date" id="check-out" name="check-out" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <section class="available-rooms">
+        <h2>Available Rooms</h2>
+        <div class="room">
+            <img src="room1.jpg" alt="Room 1">
+            <h3>Room 1</h3>
+            <p>Price: $100/night</p>
+            <button>Book Now</button>
+        </div>
+
+        <div class="room">
+            <img src="room2.jpg" alt="Room 2">
+            <h3>Room 2</h3>
+            <p>Price: $120/night</p>
+            <button>Book Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Hotel Booking</p>
+    </footer>
+</body>
+</html>
